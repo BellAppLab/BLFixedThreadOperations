@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/BLFixedThreadOperations.svg?style=flat)](http://cocoapods.org/pods/BLFixedThreadOperations)
 [![Platform](https://img.shields.io/cocoapods/p/BLFixedThreadOperations.svg?style=flat)](http://cocoapods.org/pods/BLFixedThreadOperations)
 
+A wrapper around NSThread to mimic NSOperationQueues, but make them work with a single thread.
+The main purpose of this library is to create a familiar interface (based on NSOperations) to handle NSThreads. This is particularly handy when dealing with other non-thread-safe libraries that cannot be handled by dispatch queues or NSOperationQueues.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
