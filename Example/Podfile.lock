@@ -1,0 +1,14 @@
+PODS:
+  - BLFixedThreadOperations (0.1.0)
+
+DEPENDENCIES:
+  - BLFixedThreadOperations (from `../`)
+
+EXTERNAL SOURCES:
+  BLFixedThreadOperations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BLFixedThreadOperations: de36ad005dcce860c23a9c8ef655e1ec4735a708
+
+COCOAPODS: 0.39.0

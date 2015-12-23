@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03902232B793060FD9CB69622215885F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F95A1BEEAA62E56F04E1CA8E5C21F /* ReplaceMe.m */; };
+		344304E57EAEC0BA1433D85D89127B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		39939815C50102A72DAA7CA86D2056D0 /* BLFixedThreadOperations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EF59DA5699DA9E5537FAEC8F1CE01 /* BLFixedThreadOperations.bundle */; };
+		82CDC9B2D7F52C7B26EDB38AD4E200F0 /* Pods-BLFixedThreadOperations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C8FC5A70E85D191C9FB78E43000DE7 /* Pods-BLFixedThreadOperations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1B59E9F461C40B2B43867FDB8A8A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BFA69B9750C6633FC3AAAB301ED57D67 /* Pods-BLFixedThreadOperations_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC535174F9516617CCF70E6C9FA4A8 /* Pods-BLFixedThreadOperations_Tests-dummy.m */; };
+		D561304DB32E126A14126654EEFEB494 /* BLFixedThreadOperations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD47C6D5761094F6512C13EB507049 /* BLFixedThreadOperations-dummy.m */; };
+		FFD7250DE6CC8668F0FC803A5C2F383A /* BLFixedThreadOperations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 185BCCEBC1A6292DC82985476F7FD09B /* BLFixedThreadOperations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E089530C28DE762CE1CA6EBE6DE01A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A86E7E8534410CD506BC7CF727CB3F3;
+			remoteInfo = "BLFixedThreadOperations-BLFixedThreadOperations";
+		};
+		90A7D188994DE049E233518901A074C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277039AF2D139C24628B6902CE0C027E;
+			remoteInfo = BLFixedThreadOperations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EF4C497F28982A4D823315F4BC4997 /* Pods-BLFixedThreadOperations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLFixedThreadOperations_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0C1EF59DA5699DA9E5537FAEC8F1CE01 /* BLFixedThreadOperations.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLFixedThreadOperations.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		185BCCEBC1A6292DC82985476F7FD09B /* BLFixedThreadOperations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLFixedThreadOperations-umbrella.h"; sourceTree = "<group>"; };
+		2F00B5CC33FFA20C02B88C54471961C5 /* BLFixedThreadOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLFixedThreadOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC4E2959A533BBED9B169DC563386D3 /* Pods-BLFixedThreadOperations_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLFixedThreadOperations_Tests.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C0F95A1BEEAA62E56F04E1CA8E5C21F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		68CC535174F9516617CCF70E6C9FA4A8 /* Pods-BLFixedThreadOperations_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLFixedThreadOperations_Tests-dummy.m"; sourceTree = "<group>"; };
+		7828FCC146585D84191C4C0F6FC45ED7 /* BLFixedThreadOperations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLFixedThreadOperations-prefix.pch"; sourceTree = "<group>"; };
+		78C8FC5A70E85D191C9FB78E43000DE7 /* Pods-BLFixedThreadOperations_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLFixedThreadOperations_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7A7B2D33A253591BD8BA4A183241F5F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81866F04541013AFDA853A5C0BCB6A3B /* Pods_BLFixedThreadOperations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLFixedThreadOperations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909304CBE3B1FDC63FE668049D1274EF /* Pods-BLFixedThreadOperations_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLFixedThreadOperations_Tests-resources.sh"; sourceTree = "<group>"; };
+		988E8AC09B70A0E5D53A33831065C2D3 /* Pods-BLFixedThreadOperations_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLFixedThreadOperations_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9ADD47C6D5761094F6512C13EB507049 /* BLFixedThreadOperations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLFixedThreadOperations-dummy.m"; sourceTree = "<group>"; };
+		A7DE1A6775F943D63EBECE32F51D1801 /* BLFixedThreadOperations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLFixedThreadOperations.modulemap; sourceTree = "<group>"; };
+		B757F0E56263E24855500CB0D1E08A05 /* BLFixedThreadOperations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLFixedThreadOperations.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC3145603F87884D146C84A7C04F932D /* Pods-BLFixedThreadOperations_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLFixedThreadOperations_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CE82C1EE0BEB18BAFC59C5274A601370 /* Pods-BLFixedThreadOperations_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLFixedThreadOperations_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B4BE624029AC87669770572C3A97C5 /* Pods-BLFixedThreadOperations_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLFixedThreadOperations_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6D10FE8C8B5948B5B9B996BEC13494C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B73DE41927646E0E1AB136C34C86BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C39231BC17D147F5D780455F4AFA9B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344304E57EAEC0BA1433D85D89127B70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C0869CF7580D9842689C1C8A2CDC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1B59E9F461C40B2B43867FDB8A8A73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353327DB213428A24E8AEF1D27A88AAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FDB92898A525C26D77432E36E54FC77 /* Pods-BLFixedThreadOperations_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FDB92898A525C26D77432E36E54FC77 /* Pods-BLFixedThreadOperations_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B2D33A253591BD8BA4A183241F5F1 /* Info.plist */,
+				3CC4E2959A533BBED9B169DC563386D3 /* Pods-BLFixedThreadOperations_Tests.modulemap */,
+				E2B4BE624029AC87669770572C3A97C5 /* Pods-BLFixedThreadOperations_Tests-acknowledgements.markdown */,
+				988E8AC09B70A0E5D53A33831065C2D3 /* Pods-BLFixedThreadOperations_Tests-acknowledgements.plist */,
+				68CC535174F9516617CCF70E6C9FA4A8 /* Pods-BLFixedThreadOperations_Tests-dummy.m */,
+				CC3145603F87884D146C84A7C04F932D /* Pods-BLFixedThreadOperations_Tests-frameworks.sh */,
+				909304CBE3B1FDC63FE668049D1274EF /* Pods-BLFixedThreadOperations_Tests-resources.sh */,
+				78C8FC5A70E85D191C9FB78E43000DE7 /* Pods-BLFixedThreadOperations_Tests-umbrella.h */,
+				CE82C1EE0BEB18BAFC59C5274A601370 /* Pods-BLFixedThreadOperations_Tests.debug.xcconfig */,
+				00EF4C497F28982A4D823315F4BC4997 /* Pods-BLFixedThreadOperations_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLFixedThreadOperations_Tests";
+			path = "Target Support Files/Pods-BLFixedThreadOperations_Tests";
+			sourceTree = "<group>";
+		};
+		602394DF63CF4C83358FDF5303D90071 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE1A6775F943D63EBECE32F51D1801 /* BLFixedThreadOperations.modulemap */,
+				B757F0E56263E24855500CB0D1E08A05 /* BLFixedThreadOperations.xcconfig */,
+				9ADD47C6D5761094F6512C13EB507049 /* BLFixedThreadOperations-dummy.m */,
+				7828FCC146585D84191C4C0F6FC45ED7 /* BLFixedThreadOperations-prefix.pch */,
+				185BCCEBC1A6292DC82985476F7FD09B /* BLFixedThreadOperations-umbrella.h */,
+				F6D10FE8C8B5948B5B9B996BEC13494C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLFixedThreadOperations";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				83870FB97CD91450C112D6D35D21C596 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BB880BB77535D5354D4A773D63C3A1CA /* Products */,
+				353327DB213428A24E8AEF1D27A88AAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83870FB97CD91450C112D6D35D21C596 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B40FADB7F7345A804CC4547C72FD7DBC /* BLFixedThreadOperations */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B40FADB7F7345A804CC4547C72FD7DBC /* BLFixedThreadOperations */ = {
+			isa = PBXGroup;
+			children = (
+				CF2D21BA3551F1FA82AC6098B3A49D32 /* Pod */,
+				602394DF63CF4C83358FDF5303D90071 /* Support Files */,
+			);
+			name = BLFixedThreadOperations;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB880BB77535D5354D4A773D63C3A1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1EF59DA5699DA9E5537FAEC8F1CE01 /* BLFixedThreadOperations.bundle */,
+				2F00B5CC33FFA20C02B88C54471961C5 /* BLFixedThreadOperations.framework */,
+				81866F04541013AFDA853A5C0BCB6A3B /* Pods_BLFixedThreadOperations_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF2D21BA3551F1FA82AC6098B3A49D32 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB1A2ADCE483966E1119820F247C8246 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		EB1A2ADCE483966E1119820F247C8246 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C0F95A1BEEAA62E56F04E1CA8E5C21F /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		129C073715388DEE3860186052E898B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD7250DE6CC8668F0FC803A5C2F383A /* BLFixedThreadOperations-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF528CCB745694DF8DD2A7051B6171FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDC9B2D7F52C7B26EDB38AD4E200F0 /* Pods-BLFixedThreadOperations_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		277039AF2D139C24628B6902CE0C027E /* BLFixedThreadOperations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEBEB92069372E51C52EBAD0D2F68FE /* Build configuration list for PBXNativeTarget "BLFixedThreadOperations" */;
+			buildPhases = (
+				27B6D892D5F980A631FEBEE3620D7429 /* Sources */,
+				7C39231BC17D147F5D780455F4AFA9B4 /* Frameworks */,
+				898217088A463D8259D156B71DC13B4D /* Resources */,
+				129C073715388DEE3860186052E898B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514168D4778D7530C70C3560E6F73B52 /* PBXTargetDependency */,
+			);
+			name = BLFixedThreadOperations;
+			productName = BLFixedThreadOperations;
+			productReference = 2F00B5CC33FFA20C02B88C54471961C5 /* BLFixedThreadOperations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A86E7E8534410CD506BC7CF727CB3F3 /* BLFixedThreadOperations-BLFixedThreadOperations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 679A8FA6694ABC9241E783B1A81489B0 /* Build configuration list for PBXNativeTarget "BLFixedThreadOperations-BLFixedThreadOperations" */;
+			buildPhases = (
+				936D07988BB3B55CE6E052B23852FF88 /* Sources */,
+				6B73DE41927646E0E1AB136C34C86BA1 /* Frameworks */,
+				C376D68C77A0A0CBFC11EEAD50CFF48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLFixedThreadOperations-BLFixedThreadOperations";
+			productName = "BLFixedThreadOperations-BLFixedThreadOperations";
+			productReference = 0C1EF59DA5699DA9E5537FAEC8F1CE01 /* BLFixedThreadOperations.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A6E960A4267E2577EDE709C28A5A63AC /* Pods-BLFixedThreadOperations_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCC13A5604864BFE6E45A6532509E78 /* Build configuration list for PBXNativeTarget "Pods-BLFixedThreadOperations_Tests" */;
+			buildPhases = (
+				E4270FB684F3A17ED8450BA1BB3127C3 /* Sources */,
+				B9C0869CF7580D9842689C1C8A2CDC07 /* Frameworks */,
+				FF528CCB745694DF8DD2A7051B6171FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F790D4FB3541721D10FF0950FF8B967 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLFixedThreadOperations_Tests";
+			productName = "Pods-BLFixedThreadOperations_Tests";
+			productReference = 81866F04541013AFDA853A5C0BCB6A3B /* Pods_BLFixedThreadOperations_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB880BB77535D5354D4A773D63C3A1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277039AF2D139C24628B6902CE0C027E /* BLFixedThreadOperations */,
+				2A86E7E8534410CD506BC7CF727CB3F3 /* BLFixedThreadOperations-BLFixedThreadOperations */,
+				A6E960A4267E2577EDE709C28A5A63AC /* Pods-BLFixedThreadOperations_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898217088A463D8259D156B71DC13B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39939815C50102A72DAA7CA86D2056D0 /* BLFixedThreadOperations.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C376D68C77A0A0CBFC11EEAD50CFF48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B6D892D5F980A631FEBEE3620D7429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D561304DB32E126A14126654EEFEB494 /* BLFixedThreadOperations-dummy.m in Sources */,
+				03902232B793060FD9CB69622215885F /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936D07988BB3B55CE6E052B23852FF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4270FB684F3A17ED8450BA1BB3127C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA69B9750C6633FC3AAAB301ED57D67 /* Pods-BLFixedThreadOperations_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F790D4FB3541721D10FF0950FF8B967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLFixedThreadOperations;
+			target = 277039AF2D139C24628B6902CE0C027E /* BLFixedThreadOperations */;
+			targetProxy = 90A7D188994DE049E233518901A074C6 /* PBXContainerItemProxy */;
+		};
+		514168D4778D7530C70C3560E6F73B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BLFixedThreadOperations-BLFixedThreadOperations";
+			target = 2A86E7E8534410CD506BC7CF727CB3F3 /* BLFixedThreadOperations-BLFixedThreadOperations */;
+			targetProxy = 1E089530C28DE762CE1CA6EBE6DE01A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF98E1A951C48F47632A80DF1271A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B757F0E56263E24855500CB0D1E08A05 /* BLFixedThreadOperations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLFixedThreadOperations/BLFixedThreadOperations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLFixedThreadOperations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLFixedThreadOperations/BLFixedThreadOperations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BLFixedThreadOperations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2870722C6EA81C53214FEF28889A7AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B757F0E56263E24855500CB0D1E08A05 /* BLFixedThreadOperations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BLFixedThreadOperations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3DF8B9CD0BD74DB647D15318FEB185D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B757F0E56263E24855500CB0D1E08A05 /* BLFixedThreadOperations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLFixedThreadOperations/BLFixedThreadOperations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLFixedThreadOperations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLFixedThreadOperations/BLFixedThreadOperations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLFixedThreadOperations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54914A3C9CADE79F108A6F6F3DE5A4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE82C1EE0BEB18BAFC59C5274A601370 /* Pods-BLFixedThreadOperations_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLFixedThreadOperations_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLFixedThreadOperations_Tests/Pods-BLFixedThreadOperations_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLFixedThreadOperations_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84D06A507F09456730C0EB84E4C36D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B757F0E56263E24855500CB0D1E08A05 /* BLFixedThreadOperations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BLFixedThreadOperations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BDEB3DC32A56DF1BD06DFECDCAAD2927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EF4C497F28982A4D823315F4BC4997 /* Pods-BLFixedThreadOperations_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLFixedThreadOperations_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLFixedThreadOperations_Tests/Pods-BLFixedThreadOperations_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLFixedThreadOperations_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEBEB92069372E51C52EBAD0D2F68FE /* Build configuration list for PBXNativeTarget "BLFixedThreadOperations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF8B9CD0BD74DB647D15318FEB185D3 /* Debug */,
+				0AF98E1A951C48F47632A80DF1271A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679A8FA6694ABC9241E783B1A81489B0 /* Build configuration list for PBXNativeTarget "BLFixedThreadOperations-BLFixedThreadOperations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2870722C6EA81C53214FEF28889A7AF0 /* Debug */,
+				84D06A507F09456730C0EB84E4C36D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FCC13A5604864BFE6E45A6532509E78 /* Build configuration list for PBXNativeTarget "Pods-BLFixedThreadOperations_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54914A3C9CADE79F108A6F6F3DE5A4F6 /* Debug */,
+				BDEB3DC32A56DF1BD06DFECDCAAD2927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
