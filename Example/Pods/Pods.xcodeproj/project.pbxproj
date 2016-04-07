@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		344304E57EAEC0BA1433D85D89127B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		39939815C50102A72DAA7CA86D2056D0 /* BLFixedThreadOperations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EF59DA5699DA9E5537FAEC8F1CE01 /* BLFixedThreadOperations.bundle */; };
+		65EE8E6D1CB6834D00A215DD /* BLFixedThreadOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC32611C2AA768002F591B /* BLFixedThreadOperationQueue.m */; };
 		65FC32621C2AA768002F591B /* BLFixedThreadOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FC32601C2AA768002F591B /* BLFixedThreadOperationQueue.h */; };
 		65FC32631C2AA768002F591B /* BLFixedThreadOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC32611C2AA768002F591B /* BLFixedThreadOperationQueue.m */; };
 		82CDC9B2D7F52C7B26EDB38AD4E200F0 /* Pods-BLFixedThreadOperations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C8FC5A70E85D191C9FB78E43000DE7 /* Pods-BLFixedThreadOperations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -337,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EE8E6D1CB6834D00A215DD /* BLFixedThreadOperationQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
