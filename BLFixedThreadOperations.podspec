@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BLFixedThreadOperations"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A wrapper around NSThread to mimic NSOperationQueues, but make them work with a single thread."
 
   s.description      = <<-DESC

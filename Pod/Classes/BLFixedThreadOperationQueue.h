@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 
 - (void)addOperationWithBlock:(void(^)())block;
+- (void)addOperations:(NSArray<NSOperation *> *) operations;
 
 @property (nonatomic, readonly) NSArray<NSOperation *> * _Nullable operations;
 

@@ -33,6 +33,12 @@
     [self.underlyingThread start];
 }
 
+- (void)addOperations:(NSArray<NSOperation *> *)operations
+{
+    [self.allOperations addObjectsFromArray:operations];
+    [self.underlyingThread start];
+}
+
 @synthesize allOperations = _allOperations;
 
 - (NSMutableArray<NSOperation *> *)allOperations
@@ -60,6 +66,7 @@
 - (void)processOperations
 {
     if (_allOperations.count == 0) {
+        _allOperations = nil;
         [NSThread sleepUntilDate:[NSDate distantFuture]];
         return;
     }
@@ -119,7 +126,5 @@
     _underlyingThread = underlyingThread;
     _name = _underlyingThread.name;
 }
-
-
 
 @end
