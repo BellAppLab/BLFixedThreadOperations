@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLFixedThreadOperations_Example' do
+  pod 'BLFixedThreadOperations', :path => '../'
+
+  target 'BLFixedThreadOperations_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
