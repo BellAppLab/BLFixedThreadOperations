@@ -1,24 +1,32 @@
 # BLFixedThreadOperations
 
-[![CI Status](http://img.shields.io/travis/Bell App Lab/BLFixedThreadOperations.svg?style=flat)](https://travis-ci.org/Bell App Lab/BLFixedThreadOperations)
-[![Version](https://img.shields.io/cocoapods/v/BLFixedThreadOperations.svg?style=flat)](http://cocoapods.org/pods/BLFixedThreadOperations)
-[![License](https://img.shields.io/cocoapods/l/BLFixedThreadOperations.svg?style=flat)](http://cocoapods.org/pods/BLFixedThreadOperations)
-[![Platform](https://img.shields.io/cocoapods/p/BLFixedThreadOperations.svg?style=flat)](http://cocoapods.org/pods/BLFixedThreadOperations)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+A wrapper around `NSThread` to mimic `NSOperationQueue`s, but make them work with a single thread.
 
 ## Requirements
 
+* Obj-C
+* iOS, macOS
+
 ## Installation
 
-BLFixedThreadOperations is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Cocoapods
 
-```ruby
-pod "BLFixedThreadOperations"
+Because of [this](http://stackoverflow.com/questions/39637123/cocoapods-app-xcworkspace-does-not-exists), I've dropped support for Cocoapods on this repo. I cannot have production code rely on a dependency manager that breaks this badly. 
+
+### Git Submodules
+
+**Why submodules, you ask?**
+
+Following [this thread](http://stackoverflow.com/questions/31080284/adding-several-pods-increases-ios-app-launch-time-by-10-seconds#31573908) and other similar to it, and given that Cocoapods only works with Swift by adding the use_frameworks! directive, there's a strong case for not bloating the app up with too many frameworks. Although git submodules are a bit trickier to work with, the burden of adding dependencies should weigh on the developer, not on the user. :wink:
+
+To install BLFixedThreadOperations using git submodules:
+
 ```
+cd toYourProjectsFolder
+git submodule add --name BLFixedThreadOperations https://github.com/BellAppLab/BLFixedThreadOperations.git
+```
+
+Navigate to the new Backgroundable folder and drag the `Source` folder into your Xcode project.
 
 ## Author
 
